@@ -1,0 +1,13 @@
+Source: teensy-loader-cli
+Maintainer: Andrew Straw <strawman@astraw.com>
+Section: devel
+Priority: optional
+Build-Depends: debhelper (>= 7), libusb-dev
+Standards-Version: 3.8.4
+
+Package: teensy-loader-cli
+Architecture: any
+Depends: ${misc:Depends}
+Description: teensy USB device bootloader
+ The Teensy USB device bootloader allows one to upload new
+ firmware to Teensy USB devices.

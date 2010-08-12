@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+binary: build
+	dh binary --until dh_fixperms
+	dh_install teensy_loader_cli usr/bin
+	dh binary --after dh_fixperms

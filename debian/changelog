@@ -1,0 +1,5 @@
+teensy-loader-cli (2.0-0ads1) unstable; urgency=low
+
+  * initial packaging
+
+ -- Andrew Straw <strawman@astraw.com>  Thu, 12 Aug 2010 13:59:46 -0700
